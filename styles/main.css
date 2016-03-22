@@ -1,0 +1,63 @@
+ body {
+  margin: 0 auto; }
+
+/*TOP SECTION START*/
+.top {
+  background-image: url("https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/jquery-login/master/bg-login-top.png");
+  height: 30em; }
+
+img.logo {
+  margin: 0 auto;
+  display: block;
+  padding-top: 371px; }
+
+/*TOP SECTION END*/
+/*BOTTOM SECTION START*/
+.bottom {
+  background-image: url("https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/jquery-login/master/bg-login.png");
+  height: 30em; }
+
+.input-container {
+  text-align: center;
+  padding-top: 2em;
+  color: white;
+  font-family: arial; }
+
+input {
+  height: 33px;
+  width: 218px;
+  margin-left: 1em;
+  border-radius: 0.5em; }
+
+button {
+  margin: 16px 799px;
+  border: none;
+  background: #519b09;
+  color: white;
+  height: 30px;
+  width: 76px;
+  border-radius: 0.5em;
+  font-family: arial;
+  font-size: 15px; }
+
+button:hover {
+  margin: 16px 799px;
+  border: none;
+  background: green;
+  color: white;
+  height: 30px;
+  width: 76px;
+  border-radius: 0.5em;
+  font-family: arial;
+  font-size: 15px; }
+
+/*BOTTOM SECTION END*/
+div#userpassworderror, div#usererror, div#passworderror {
+    color: red;
+    font-size: larger;
+    font-weight: 900;
+}
+ 
+
+
+/*# sourceMappingURL=main.css.map */
